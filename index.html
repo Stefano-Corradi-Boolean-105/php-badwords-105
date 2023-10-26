@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.css' integrity='sha512-bR79Bg78Wmn33N5nvkEyg66hNg+xF/Q8NA8YABbj+4sBngYhv9P8eum19hdjYcY7vXk/vRkhM3v/ZndtgEXRWw==' crossorigin='anonymous'/>
+
+  <title>Form Badword</title>
+</head>
+<body>
+
+  <div class="container my-5">
+    <h1>Form badword</h1>
+    <div class="row">
+      <div class="col-6">
+
+         <form action="censura.php" method="POST">
+
+          <p>Parola da censurare</p>
+          <input  class="form-control" type="text" placeholder="Parola da censurare" name="badword">
+
+          <p class="mt-3">Paragrafo</p>
+          <textarea  class="form-control" name="paragrafo" id="paragrafo" cols="30" rows="10" placeholder="Paragrafo"></textarea>
+
+          <button class="btn btn-primary mt-3" type="submit">Invia</button>
+        
+        </form>
+
+      </div>
+    </div>
+   
+
+  </div>
+
+  
+</body>
+</html>
